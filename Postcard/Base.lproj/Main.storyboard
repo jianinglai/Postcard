@@ -104,6 +104,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j62-A8-yzh"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zb-Xf-NnS">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="23" y="159" width="136" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="5wb-gH-pX2"/>
                                 <exclude reference="CIE-zW-ka7"/>
                                 <exclude reference="eqF-f1-sJF"/>
+                                <exclude reference="3zb-Xf-NnS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="5wb-gH-pX2"/>
                                 <include reference="CIE-zW-ka7"/>
                                 <include reference="eqF-f1-sJF"/>
+                                <include reference="3zb-Xf-NnS"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="5wb-gH-pX2" id="QF5-Rn-a6W"/>
                         <outlet property="enterNameTextField" destination="j4w-kV-Vpp" id="3VP-Fj-XSY"/>
                         <outlet property="messageLabel" destination="CIE-zW-ka7" id="p8m-ZT-LOM"/>
+                        <outlet property="nameLabel" destination="3zb-Xf-NnS" id="5WR-YS-I6R"/>
                         <outlet property="sendMailButton" destination="eqF-f1-sJF" id="3G8-ut-ucR"/>
                     </connections>
                 </viewController>
